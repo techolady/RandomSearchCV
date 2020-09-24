@@ -4,7 +4,7 @@ This code represents the working of Cross validation. Instead of importing the l
 
 
 
-def RandomSearchCV(x_train,y_train,classifier, param_range, folds):    
+    def RandomSearchCV(x_train,y_train,classifier, param_range, folds):    
     # x_train: its numpy array of shape, (n,d)    
     # y_train: its numpy array of shape, (n,) or (n,1)    
     classifier: its typically KNeighborsClassifier()    
